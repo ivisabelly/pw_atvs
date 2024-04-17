@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrola MIDI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="teste.js"></script> 
+<body>
+    <header>
+        <h1 id="monkey" onclick="myFunction()">Monkeys MIDI</h1>
+        
+    </header>
+<main>  
+   <div class="btn-container">
+    <button class="btn" id="one" onmousedown="myStyle()" onclick="sound.play()">Bom diaa!</button>
+    <button class="btn" id="two" onmousedown="myStyle2()" onclick="sound2.play()">Atumalaka</button>
+    <button class="btn" id="three" onmousedown="myStyle3()" onclick="sound3.play()">ONN</button>
+    <br>    
+    <button class="btn" id="four" onmousedown="myStyle4()" onclick="sound4.play()" >Bebel</button>
+    <button class="btn" id="five" onmousedown="myStyle5()" onclick="sound5.play()">aimeucuh</button>
+    <button class="btn" id="six" onmousedown="myStyle6()" onclick="sound6.play()">geme meu nome</button>
+    <br>
+    <button class="btn" id="seven"  onmousedown="myStyle7()" onclick="sound7.play()">vai neimá</button>
+    <button class="btn" id="eight" onmousedown="myStyle8()" onclick="sound8.play()" >saborosas</button>
+    <button class="btn" id="nine" onmousedown="myStyle9()" onclick="sound9.play()">gogogo</button>
+    </div>
+    <script>
+        var sound = new Audio();
+        sound.src = "sounds/bom-dia-motivacional.mp3";
+        var sound2 = new Audio();
+        sound2.src = "sounds/atumalaka-slow.mp3";
+        var sound3 = new Audio();
+        sound3.src = "sounds/ilarilarie-xuxa-47.mp3";
+        var sound4 = new Audio();
+        sound4.src = "sounds/rap-dos-coringas-circo-dos-horrores.mp3";
+        var sound5 = new Audio();
+        sound5.src = "sounds/ai-meu-cuh.mp3";
+        var sound6 = new Audio();
+        sound6.src = "sounds/geme-meu-nome-geme.mp3";
+        var sound7 = new Audio();
+        sound7.src = "sounds/lula-e-neymar-47.mp3";
+        var sound8 = new Audio();
+        sound8.src = "sounds/rolas-saborosas.mp3";
+        var sound9 = new Audio();
+        sound9.src = "sounds/gogogogogo.mp3";
+            
+    </script>
+</main>
+</body>
+</html>
